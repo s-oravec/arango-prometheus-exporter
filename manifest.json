@@ -3,10 +3,10 @@
     "arangodb": "^3.0.0"
   },
   "name": "arango-prometheus-exporter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Manuel Pöter",
   "description": "Prometheus exporter for the ArangoDB statistics",
-  "license": "MIT",  
+  "license": "MIT",
   "main": "index.js",
   "lib": "lib"
 }

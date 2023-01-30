@@ -4,8 +4,14 @@
   "main": "index.js",
   "author": "Manuel Pöter",
   "license": "MIT",
+  "files": [
+    "manifest.json",
+    "package.json",
+    "lib"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "package": "rm -f package.zip && zip -r package.zip manifest.json package.json lib"
   },
   "devDependencies": {
     "jest": "^21.2.1"
